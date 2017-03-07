@@ -48,11 +48,13 @@ Base UI components are from excellent [Elemental UI](http://elemental-ui.com/).
 
 3. Enable `Sign-in providers` you want to use in your Firebase app console's `Authentication > Sign-in method` settings
 
-4. Change `projects.default` value to your app name in `.firebaserc`
+4. Change `projects.default` value to your app name in `.firebaserc`(ex. forum3-eferse)
 
-5. Run `npm install` and `npm run build`
+5. Run `npm install` and `npm run build`(sudo npm install / sudo npm run build)
 
 6. Run `npm run login` to login to Firebase
+
+6.1(attach firebase project in console and local project using firebase use --add)
 
 7. Run `npm run bootstrap` to copy the initial data structure to Firebase
 
